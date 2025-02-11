@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "google" {
-  project = "mentoring-batch-1"
-  region  = "asia-southeast2"
+  project = "var.project_id"
+  region  = "var.region"
   # credentials = "./credentials.json"
 }
 
