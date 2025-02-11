@@ -1,6 +1,7 @@
 # Local .terraform directories
  **/.terraform/*
 
+.credentials.json
 #  Ignore variables files
  *.auto.tfvars
 
