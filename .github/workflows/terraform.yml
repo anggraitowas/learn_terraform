@@ -40,7 +40,7 @@ jobs:
       - name: Terraform Init
         run: terraform init
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: "${{ github.workspace }}/GCP_CREDENTIALS.json"
+          GOOGLE_APPLICATION_CREDENTIALS: "${{ github.workspace }}/CREDENTIALS.json"
 
       # Step 6: Terraform Plan
       - name: Terraform Plan
