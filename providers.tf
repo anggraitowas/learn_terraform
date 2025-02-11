@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   project = "mentoring-batch-1"
   region  = "asia-southeast2"
-  credentials = "${{ github.workspace }}/gcp_credentials.json"
+  credentials = "./credentials.json"
 }
 
 # resource "google_compute_subnetwork" "subnet_vm1" {
